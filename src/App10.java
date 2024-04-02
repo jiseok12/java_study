@@ -5,7 +5,7 @@ public class App10 {
 
 		int money = new Random().nextInt(500)+1;
         int count1 [] = new int[6];
-
+        money = money-money%10;
 
         System.out.println(money);
         int save = money;
@@ -32,7 +32,7 @@ public class App10 {
             }
             if(count1[i]!=0){
                 System.out.print(count1[i]);
-                System.out.print("원");
+                System.out.print("개");
             }
             
         }
